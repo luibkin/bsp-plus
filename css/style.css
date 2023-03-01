@@ -170,7 +170,7 @@ body {
 
 .main {
    flex: 1 1 auto;
-   background: url('../img/bg-image.jpg') 50% 50%/cover no-repeat;
+   background: url('/bg-image.jpg') 50% 50%/cover no-repeat;
 }
 .main-container {
    width: 100%;
