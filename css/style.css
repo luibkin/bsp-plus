@@ -90,6 +90,7 @@ body {
 }
 .contacts {
    display: flex;
+   margin-left: 50px;
 }
 .contacts a {
    color: #424551;
