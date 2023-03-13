@@ -171,7 +171,7 @@ body {
 
 .main {
    flex: 1 1 auto;
-   background: url("../img/bg-image.jpg") 50% 50%/cover no-repeat;
+   background: linear-gradient(0deg, rgba(30, 33, 44, 0.6), rgba(30, 33, 44, 0.6)), url("../img/bg.jpg") 50% 50%/cover no-repeat;
 }
 .main-container {
    width: 100%;
@@ -192,12 +192,12 @@ body {
    line-height: 30px;
    color: #ffffff;
    margin-top: 24px;
-   max-width: 950px;
+   max-width: 790px;
 }
 .main-buttons {
    margin-top: 61px;
    border: 1px solid #ffffff;
-   border-radius: 3px;
+   border-radius: 5px;
    display: inline-block;
    font-size: 16px;
    font-weight: 700;
@@ -209,6 +209,13 @@ body {
    display: inline-block;
    padding: 0px 40px;
 }
+
+/* Main about */
+
+.about  {
+   flex: 1 1 auto;
+}
+
 /* Footer */
 
 footer {
