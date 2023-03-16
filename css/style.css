@@ -49,7 +49,12 @@ body {
 }
 
 /* Header */
+header {
 
+}
+.header-bg {
+   background: url("../img/subheader_about.svg") right/auto 100% no-repeat, url("../img/subheader_about_bg.svg") right/auto 100% no-repeat;
+}
 .header-container {
    width: 100%;
    max-width: 1260px;
@@ -67,6 +72,7 @@ body {
 }
 .logo__img {
    height: 62px;
+   bd
 }
 .logo__img img{
    height: 100%;
@@ -126,6 +132,23 @@ body {
    width: 25px;
    left: -34px;
    background: url("../img/icons/email.png") 50% 50%/contain no-repeat;
+}
+
+.subheader-container {
+   width: 100%;
+   max-width: 1260px;
+   margin: 0 auto;
+   padding: 0px 15px;
+}
+.subheader__title {
+   font-size: 72px;
+   line-height: 94px;
+   font-weight: 700;
+}
+.subheader__text {
+   max-width: 600px;
+   font-size: 20px;
+   line-height: 30px;
 }
 
 /* .contacts {
