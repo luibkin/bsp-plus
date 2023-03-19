@@ -140,6 +140,14 @@ header {
    margin: 0 auto;
    padding: 0px 15px;
 }
+.subheader__map {
+}
+.map__title {
+   display: flex;
+}
+.map__title a{
+   color: #424551;
+}
 .subheader__title {
    font-size: 72px;
    line-height: 94px;
