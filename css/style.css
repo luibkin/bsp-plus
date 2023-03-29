@@ -264,6 +264,7 @@ header {}
 .about  {
    flex: 1 1 auto;
 }
+/* Section about director */
 
 .director {
    display: flex;
@@ -271,6 +272,7 @@ header {}
 }
 .director__content {
    flex: 0 0 100%;
+   padding-bottom: 120px;
 }
 .director__container {
    max-width: 1260px;
@@ -343,6 +345,29 @@ header {}
    height: 100%;
    position: absolute;
    object-fit: cover;
+}
+
+/* Section about values */
+
+.values {
+   background-color: #F4F5F6;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+.section-title {
+   text-align: center;
+   font-size: 46px;
+   font-weight: 700;
+   line-height: 60px;
+}
+
+.section-subtitle {
+   text-align: center;
+   font-size: 18px;
+   line-height: 27px;
+   margin-top: 24px;
+}
+.values__items {
 }
 
 /* Footer */
