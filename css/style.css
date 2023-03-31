@@ -278,6 +278,7 @@ header {}
    max-width: 1260px;
    margin: 0 auto;
    padding: 0px 15px;
+   border: 1px solid #000;
 }
 .director__body {
    width: 67%;
@@ -301,6 +302,7 @@ header {}
    padding: 80px 105px 190px 135px;
    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
    border-radius: 4px;
+   border: 1px solid #000;
 }
 .director__text {
    position: relative;
@@ -366,8 +368,9 @@ header {}
    font-size: 18px;
    line-height: 27px;
    margin-top: 24px;
+   color: #787A80;
 }
-.values__items {
+.values__row {
 }
 
 /* Footer */
